@@ -6,7 +6,11 @@
   "rewrites": [
     {
       "source": "/media/:path*",
-      "destination": "/api/media/:path*"
+      "destination": "https://sms-carship-redesign-kn0fnyf5h-lukas33334s-projects.vercel.app/manus-storage/:path*"
+    },
+    {
+      "source": "/api/trpc/:path*",
+      "destination": "https://sms-carship-redesign-kn0fnyf5h-lukas33334s-projects.vercel.app/api/trpc/:path*"
     },
     {
       "source": "/tracking",
